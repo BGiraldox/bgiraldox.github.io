@@ -1,0 +1,8 @@
+name: 'Local Cache with App Service on Linux &#8211; Honza&#039;s Blarg'
+date: '2017-06-15 09:02:52'
+url: 'https://hajekj.net/2017/06/15/local-cache-with-app-service-on-linux/'
+message: >-
+  [&#8230;] am sure you have heard of App Service&#8217;s feature called Local
+  Cache, which allows to cache all the files locally on the instance instead of
+  pulling them from the [&#8230;]
+email: d41d8cd98f00b204e9800998ecf8427e

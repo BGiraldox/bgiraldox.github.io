@@ -1,0 +1,8 @@
+name: Jan Hajek
+date: '2018-11-05 15:49:49'
+url: 'https://hajekj.net'
+message: >-
+  Well, you seem to be missing adding CookieAuthenticationOptions into the DI
+  like I mentioned above. SameSite policy only sets the minimum value. You also
+  need to specify the actual value for CookieAuthentication SameSite policy.
+email: 0bf773a272fb7bd72c40e7f735a4a597

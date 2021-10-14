@@ -1,0 +1,15 @@
+name: Jan Hajek
+date: '2018-05-29 15:50:34'
+url: 'https://hajekj.net'
+message: >-
+  So in case you make a Single Page App, you wouldn't use Passport.js on
+  frontend and instead use authentication within the SPA framework you use. For
+  example ADAL for React, Angular etc.
+
+
+  There is a difference between ADAL and MSAL - basically, MSAL is a successor
+  of ADAL. You should be using MSAL nowadays when starting a new project unless
+  you hit some big issues - haven't hit any myself yet. You can use ADAL and
+  MSAL in the project (not at the same time tho) at different tiers of
+  application - for example SPA with MSAL, backend with ADAL etc.
+email: 0bf773a272fb7bd72c40e7f735a4a597

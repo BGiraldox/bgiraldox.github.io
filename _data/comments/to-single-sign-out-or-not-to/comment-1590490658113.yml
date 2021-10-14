@@ -1,0 +1,11 @@
+_id: b60f6640-9f3f-11ea-afc8-35737da49ef0
+message: >-
+  According to Joonas's blog -
+  https://joonasw.net/view/aad-single-sign-out-in-asp-net-core it should be
+  supported... But I haven't played with it lately to be honest and still using
+  the session management method.
+name: Jan Hajek
+email: 0bf773a272fb7bd72c40e7f735a4a597
+url: 'https://hajekj.net'
+hidden: ''
+date: '2020-05-26T10:57:38.112Z'

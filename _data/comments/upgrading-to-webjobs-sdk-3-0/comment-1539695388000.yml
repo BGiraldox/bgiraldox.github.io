@@ -1,0 +1,8 @@
+name: Jan Hajek
+date: '2018-10-16 15:09:48'
+url: 'https://hajekj.net'
+message: >-
+  It's actually super simple, just add:
+  <em>services..AddSingleton&lt;IJobActivator, JobActivator>();</em> to
+  <em>ConfigureServices</em> and you should be good to go.
+email: 0bf773a272fb7bd72c40e7f735a4a597

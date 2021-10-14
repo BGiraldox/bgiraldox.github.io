@@ -1,0 +1,27 @@
+name: Jan Hajek
+date: '2018-11-08 14:17:46'
+url: 'https://hajekj.net'
+message: >-
+  From the source of the library, it doesn't seem to require not include the
+  refresh token in the response
+  (https://github.com/AzureAD/azure-activedirectory-library-for-nodejs/blob/81ff31dd612cae6cd69a9a7452171b7af792be9f/lib/token-request.js#L118)
+  which could be a bug in this case - since client_secret is required when
+  refreshing a token:
+  https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code#refreshing-the-access-tokens
+
+
+  Also, I think you best bet would be to obtain the tokens from the cache,
+  checking expiration and if they expired, calling getTokenWithRefreshToken
+  manually with obtained refreshToken from cache and you client secret. I can
+  try to update the sample if it would be any useful for you.
+
+
+  Aditionally, I would suggest moving away from using this application model,
+  and switching either to SPA + API or some similar architecture since such
+  backend authentication and advanced flows seem to be rather complicated with
+  ADAL for Node.js.
+
+
+  <em>I have modified this reply multiple times as ideas were flowing through my
+  head</em>
+email: 0bf773a272fb7bd72c40e7f735a4a597

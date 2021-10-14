@@ -1,0 +1,11 @@
+name: Jan Hajek
+date: '2017-08-06 11:13:46'
+url: 'https://hajekj.net'
+message: >-
+  Right, I just tried with a clean directory and I am hitting the same issue.
+  The documentation states that Guests are synonymous to Members
+  (https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-user-properties#can-azure-ad-b2b-users-be-added-as-members-instead-of-guests)
+  which makes it more confusing. I noticed you already wrote to Stack Overflow
+  (https://stackoverflow.com/questions/45487492/aadsts50034-to-sign-into-this-application-the-account-must-be-added-to-the-gu)
+  so I voted it up. All we can do is wait for Microsoft's response in this case.
+email: 0bf773a272fb7bd72c40e7f735a4a597

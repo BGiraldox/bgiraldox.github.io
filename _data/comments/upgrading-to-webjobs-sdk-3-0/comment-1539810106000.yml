@@ -1,0 +1,51 @@
+name: Ed Baker
+date: '2018-10-17 23:01:46'
+url: 'https://plus.google.com/+EdBakertheIncongruous'
+message: |-
+  .NET Core WebJob SDK 3.x this is what my program looks like:
+
+  <pre>    static void Main(string[] args)
+      {
+          var builder = new HostBuilder()
+              .UseEnvironment("Development")
+              .ConfigureWebJobs(b =&gt;
+              {
+                  b.AddAzureStorageCoreServices()
+                      .AddTimers();
+              })
+              .ConfigureAppConfiguration(SetupConfiguration)
+              .ConfigureLogging((context, b) =&gt;
+              {
+                  b.SetMinimumLevel(LogLevel.Debug);
+                  b.AddConsole();
+
+                  // If this key exists in any config, use it to enable App Insights
+                  var appInsightsKey = Configuration.GetSection("ApplicationInsights").Value;
+                  if (!string.IsNullOrEmpty(appInsightsKey))
+                  {
+                      b.AddApplicationInsights(o =&gt; o.InstrumentationKey = appInsightsKey);
+                  }
+              })
+              .ConfigureServices(ConfigureServices)
+              .UseConsoleLifetime();
+
+          var host = builder.Build();
+          host.Run();
+      }
+
+      private static void SetupConfiguration(IConfigurationBuilder builder)
+      {
+          Configuration = new ConfigurationBuilder()
+              .SetBasePath(Directory.GetCurrentDirectory())
+              .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+              .AddEnvironmentVariables()
+              .Build();
+      }
+
+      private static void ConfigureServices(IServiceCollection services)
+      {
+          services.AddSingleton(Configuration);
+          services.AddSingleton&lt;IJobActivator, JobActivator&gt;();
+      }
+  </pre>
+email: c5455559807d484230636a6ac99b2440

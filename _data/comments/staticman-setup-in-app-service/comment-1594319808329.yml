@@ -1,0 +1,12 @@
+_id: 256d51f0-c213-11ea-af83-83431e34f653
+message: >-
+  Hi Jan, excellent posting with very clear instructions! The only change I made
+  was hosting the forked staticman repo on Azure DevOps instead of Github, that
+  way you get a very nice Azure DevOps Pipeline integration. Furthermore the
+  *free personal* plan from AKISMET is also available if you create a Wordpress
+  account, the API key you get is not limited to Wordpress sites. Thanks again!
+name: SjoerdV
+email: cd967d383754e3a460a6fcef889efc32
+url: ''
+hidden: ''
+date: '2020-07-09T18:36:48.266Z'

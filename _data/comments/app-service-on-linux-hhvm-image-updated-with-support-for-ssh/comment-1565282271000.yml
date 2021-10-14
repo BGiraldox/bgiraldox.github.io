@@ -1,0 +1,23 @@
+name: Erik Forsberg
+date: '2019-08-08 18:37:51'
+url: ''
+message: >-
+  Hi again, I figured I'd let you know how things have gone so far.
+
+
+  By looking at Azure's PHP image and the Django sample
+  (https://github.com/Azure-Samples/docker-django-webapp-linux) I've managed to
+  get my image with working SSH on port 2222, although only locally. When I put
+  it up on Azure, I can't create a tunnel with "az webapp
+  create-remote-connection [...]" (error message "WARNING - Remote debugging may
+  not be setup properly. Reponse content: FAILURE:2222:Unable to connect to
+  WebApp") nor connect using WebSSH on Kudu (error message "connect ECONNREFUSED
+  xxx.xxx.xxx.xxx:2222").
+
+
+  I feel like I've soon tried all the tricks and "hacks" people have come up
+  with to try and get SSH working on their containers on the entire web.
+
+
+  Did you run docker-compose on Azure with a working SSH image?
+email: a3755df546d918205979eb9a979925b2

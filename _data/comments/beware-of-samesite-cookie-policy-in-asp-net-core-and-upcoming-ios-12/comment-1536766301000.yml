@@ -1,0 +1,12 @@
+name: Fred
+date: '2018-09-12 17:31:41'
+url: ''
+message: >-
+  Thanks for writing this up! After running into the same issue, I went down a
+  rabbit hole trying to see if the issue was related to ITP 2.0, and came up
+  with nothing.
+
+
+  Disabling the SameSite property is a quick (but less secure) fix. Hopefully
+  the WebKit folks can prioritize this issue and resolve it soon.
+email: 85e12deac3c0a0148e3ef4d95114db6b

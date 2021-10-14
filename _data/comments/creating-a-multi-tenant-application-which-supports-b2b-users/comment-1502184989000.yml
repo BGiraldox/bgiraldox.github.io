@@ -1,0 +1,27 @@
+name: Vitalii
+date: '2017-08-08 11:36:29'
+url: ''
+message: >-
+  HI Jan, We have found out the problem. The problem in authorization context of
+  getting tenants. We have to use ID of logged active directory instead of
+  "common".
+
+
+  <pre><code>
+
+  public AzureServiceManagement(IHttpContextAccessor httpContextAccessor,
+  IConfigurationRoot configuration)
+
+  {
+      _httpContextAccessor = httpContextAccessor;
+      _userObjectId = _httpContextAccessor.HttpContext.User.FindFirst(AzureAdClaimTypes.ObjectId)?.Value;
+      _tenantId = _httpContextAccessor.HttpContext.User.FindFirst(AzureAdClaimTypes.TenantId)?.Value;
+      _clientId = configuration["Authentication:AzureAd:ClientId"];
+      //_authContext = new AuthenticationContext("https://login.microsoftonline.com/common", new NaiveSessionCache(_tenantId, _httpContextAccessor.HttpContext.Session));
+      _authContext = new AuthenticationContext("https://login.microsoftonline.com" + _tenantId, new NaiveSessionCache(_tenantId, _httpContextAccessor.HttpContext.Session));
+
+      _clientCredential = new ClientCredential(_clientId, configuration["Authentication:AzureAd:ClientSecret"]);
+  }
+
+  </code></pre>
+email: 7779a9e04bb79c37abdd77cfc2582aa1

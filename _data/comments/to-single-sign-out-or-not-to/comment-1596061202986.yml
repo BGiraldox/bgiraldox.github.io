@@ -1,0 +1,7 @@
+_id: a563aea0-d1e9-11ea-8644-cdf5180be54f
+message: "Great article!\r\nI am trying to implement Single Logout on a javascript implementation and cannot get Azure AD B2C to call the Logout URL on the Application setting. \r\nAny chance you could share a code to accomplish this? Just 2 javascript pages, as 2 applications on Azure B2C, and one Tenant. This pages are not SPA, they do refresh the HTML from time to time."
+name: Francisco Malafaia
+email: c767f848151da9e091d243908ed4747a
+url: 'http://www.ahima.org'
+hidden: ''
+date: '2020-07-29T22:20:02.970Z'

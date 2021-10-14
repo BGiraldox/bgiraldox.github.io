@@ -1,0 +1,8 @@
+name: 'Remotely debugging PHP on App Service on Linux &#8211; Honza&#039;s Blarg'
+date: '2018-05-29 11:05:38'
+url: 'https://hajekj.net/2018/05/29/remotely-debugging-php-on-app-service-on-linux/'
+message: >-
+  [&#8230;] previously wrote about the possibility of remote debugging PHP apps
+  in Microsoft Azure using ngrok. This solution wasn&#8217;t much secure and
+  required the use of 3rd party software. During build, [&#8230;]
+email: d41d8cd98f00b204e9800998ecf8427e

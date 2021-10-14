@@ -1,0 +1,14 @@
+name: Jan Hajek
+date: '2018-05-29 14:55:45'
+url: 'https://hajekj.net'
+message: >-
+  So in your case, I would do a following setup: a Single Page Application (SPA)
+  to handle the front end, then your custom API and Micrsooft Graph. The SPA
+  will authenticate the user directly (sample here
+  https://github.com/Azure-Samples/react-aad-msal) and communicate with your API
+  and MS Graph by passing the respective tokens for the services. On your custom
+  API, you just validate the token and make sure that it contains the scope etc.
+  and that the user is authorized to make the operation. In case you need to
+  call other APIs from your own API, you can do so through "on-behlaf-of" flow -
+  ADAL does the heavy lifting for you.
+email: 0bf773a272fb7bd72c40e7f735a4a597

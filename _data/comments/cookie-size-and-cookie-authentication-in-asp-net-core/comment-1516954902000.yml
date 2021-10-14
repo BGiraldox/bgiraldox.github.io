@@ -1,0 +1,6 @@
+name: 'Missing claims in ASP.NET Core 2.0 OpenID Connect &#8211; Honza&#039;s Blarg'
+date: '2018-01-26 09:21:42'
+url: >-
+  https://hajekj.net/2018/01/26/missing-claims-in-asp-net-core-2-0-openid-connect/
+message: "[&#8230;] probably the biggest change has been done in the Authentication. I have written an article about cookie size in ASP.NET Core\_which explains the basic issue with too many claims in the identity. ASP.NET Core 2.0 OIDC [&#8230;]"
+email: d41d8cd98f00b204e9800998ecf8427e

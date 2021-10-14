@@ -1,0 +1,7 @@
+_id: 11077fb0-a1ec-11eb-a3c3-cd5f0bf55aaf
+message: "Is there any way I can disable single logout? I have built an .net core app with azure ad authentication. Everything works fine but when I tried to log out from the application, it automatically logs you out of web based outlook.com.\r\n\r\nPosted the question here\r\nhttps://stackoverflow.com/questions/66872791/disable-azure-active-directory-single-logout"
+name: Sagar  Ghimire
+email: b692046f43685399f1dde2aa155c9f8a
+url: ''
+hidden: ''
+date: '2021-04-20T15:21:23.865Z'

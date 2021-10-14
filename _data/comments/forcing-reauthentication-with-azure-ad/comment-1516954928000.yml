@@ -1,0 +1,9 @@
+name: 'Missing claims in ASP.NET Core 2.0 OpenID Connect &#8211; Honza&#039;s Blarg'
+date: '2018-01-26 09:22:08'
+url: >-
+  https://hajekj.net/2018/01/26/missing-claims-in-asp-net-core-2-0-openid-connect/
+message: >-
+  [&#8230;] I wouldn&#8217;t have noticed this issue unless the project used
+  reauthentication with Azure AD. After migrating to ASP.NET Core 2.0, the
+  reauthentication basically stopped working and was [&#8230;]
+email: d41d8cd98f00b204e9800998ecf8427e

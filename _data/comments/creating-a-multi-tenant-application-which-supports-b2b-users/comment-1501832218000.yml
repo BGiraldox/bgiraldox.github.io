@@ -1,0 +1,15 @@
+name: Vitalii
+date: '2017-08-04 09:36:58'
+url: ''
+message: >-
+  Thank you for the nice article. You saved my day. I have only one question.
+  How can I fix a problem of getting tenants when user logged in directory where
+  he is as Guest not a Member. The exception is looked like:
+
+
+  Exception: {"error":"invalid_grant","error_description":"AADSTS50034: To sign
+  into this application the account must be added to the GUID
+  directory.\r\nTrace ID: GUID\r\nCorrelation ID: GUID\r\nTimestamp: 2017-08-03
+  15:58:15Z","error_codes":[50034],"timestamp":"2017-08-03
+  15:58:15Z","trace_id":"GUID","correlation_id":"GUID"}
+email: 7779a9e04bb79c37abdd77cfc2582aa1

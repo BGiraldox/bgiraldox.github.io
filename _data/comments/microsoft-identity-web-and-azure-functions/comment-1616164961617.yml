@@ -1,0 +1,7 @@
+_id: 5b66c6e0-88c1-11eb-a5c9-6d33dda7aa24
+message: "Hey, great points:\r\n\r\n1. It works also in Azure (in fact I am using it in production), but you loose some of the portal integration (like log streaming), but everything works well with App Insights.\r\n2. In this case, I use local.settings.json for local development and Application Settings (Environment Variables) for Azure hosting.\r\n3. The configuration is set via Startup.cs during service registration into the service provider (dependency injection). The configuration is defined in Microsoft.Identity.Web's docs. The available configuration is for example shown here: https://github.com/AzureAD/microsoft-identity-web/wiki/web-apis"
+name: Jan Hajek
+email: 0bf773a272fb7bd72c40e7f735a4a597
+url: 'https://hajekj.net'
+hidden: ''
+date: '2021-03-19T14:42:41.609Z'

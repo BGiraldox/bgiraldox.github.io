@@ -1,0 +1,7 @@
+name: nrgrts
+date: '2019-03-14 20:42:59'
+url: ''
+message: >-
+  that did it! services.addcookie and services.addsession both had to be
+  updated. Confirmed working on core 2, iOS12 in March 2019.
+email: 23dba889c42a7c1b4a97f7f97357e934

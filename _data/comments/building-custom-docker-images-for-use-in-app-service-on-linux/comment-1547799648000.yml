@@ -1,0 +1,8 @@
+name: 'Local Cache with App Service on Linux &#8211; Honza&#039;s Blarg'
+date: '2019-01-18 09:20:48'
+url: 'https://hajekj.net/2017/06/15/local-cache-with-app-service-on-linux/'
+message: >-
+  [&#8230;] First off, we are going to explore the harder but more obvious
+  option &#8211; handling the Local Cache directly within the Docker image. That
+  of course requires you to know how to make such an image. [&#8230;]
+email: d41d8cd98f00b204e9800998ecf8427e

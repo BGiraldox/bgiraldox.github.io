@@ -1,0 +1,13 @@
+name: Jan Hajek
+date: '2018-03-14 15:35:02'
+url: 'https://hajekj.net'
+message: >-
+  So you would probably be best off with building a Docker container and then
+  deploying the container to your machines. You can either handle the deployment
+  manually or setup some orchestrator like Kubernetes (or even used Azure
+  Container Service - AKS, as a managed container platform which can run both
+  Linux and Windows, and also uses Scale Sets).
+
+  If you have a Scale Set deployed, do the machines have connection to some
+  shared storage? Like Azure Files or each of the machine is independent?
+email: 0bf773a272fb7bd72c40e7f735a4a597

@@ -1,0 +1,13 @@
+name: Roberto Prevato
+date: '2017-10-16 14:36:38'
+url: 'https://robertoprevato.github.io'
+message: >-
+  Thanks for the post, really useful and well written. I found the information
+  about OnSigningIn event of cookie middleware extremely useful. I would only
+  add one thing: using in-memory store is not always a good option, because
+  scaling to multiple instances of the application then requires sticky
+  sessions, which is a nuisance. That's because memory is not shared among
+  processes and different instances of the application, so in-memory store works
+  only if requests from the same user are always handled by the same instance.
+  This should be mentioned at the end of the article.
+email: 42d0bc4d65ee2f6ecff53483c7afeff7

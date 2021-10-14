@@ -1,0 +1,15 @@
+name: Jan Hajek
+date: '2018-10-11 11:38:25'
+url: 'https://hajekj.net'
+message: >-
+  Great question! You are likely using the bits from
+  https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.AzureAD.UI/
+  package? If so, you need to register CookieAuthenticationOptions into the DI
+  container before calling AddAzureAD. With the CookieAuthenticationOptions you
+  can configure the cookie SameSite policy and it should work just fine. Please
+  do let me know if it worked for you or not.
+
+
+  AddAzureAD source for reference:
+  https://github.com/aspnet/AADIntegration/blob/master/src/Microsoft.AspNetCore.Authentication.AzureAD.UI/AzureADAuthenticationBuilderExtensions.cs#L120
+email: 0bf773a272fb7bd72c40e7f735a4a597

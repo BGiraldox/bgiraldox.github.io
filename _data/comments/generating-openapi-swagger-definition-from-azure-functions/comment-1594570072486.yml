@@ -1,0 +1,16 @@
+_id: d66a8520-c459-11ea-82eb-4b5da55d94ed
+message: >-
+  Hey Yasmine, I haven't got the Swagger UI working in this case. I usually
+  visualize the definition via https://editor.swagger.io/. There have been
+  projects to directly embed Swagger UI and load it from within the Azure
+  Functions (like
+  [this](https://medium.com/@yuka1984/open-api-swagger-and-swagger-ui-on-azure-functions-v2-c-a4a460b34b55)
+  one), however it for example works only with v2 runtime and is not supported
+  with v3 and so on. Also, I am not sure whether embedding the UI from within
+  the Function is the most efficient thing to do - performance wise, since the
+  Function will become quite large due to the included libraries.
+name: Jan Hajek
+email: 0bf773a272fb7bd72c40e7f735a4a597
+url: 'https://hajekj.net'
+hidden: ''
+date: '2020-07-12T16:07:52.447Z'

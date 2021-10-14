@@ -1,0 +1,8 @@
+name: Jan Hajek
+date: '2018-04-24 08:39:11'
+url: 'https://hajekj.net'
+message: >-
+  If you want to log the user out of single application, just simply destroy
+  their session only within the application instead of signing them out from the
+  Identity Provider.
+email: 0bf773a272fb7bd72c40e7f735a4a597

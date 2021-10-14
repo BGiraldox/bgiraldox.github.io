@@ -1,0 +1,41 @@
+name: sercangurbuz2017sercan
+date: '2018-11-08 12:11:20'
+url: 'http://gravatar.com/sercangurbuz2017'
+message: >-
+  Hi Jan
+
+
+  I have configured Azure Ad as Web App and try to get authtenciated with
+  passport and adal-node.I followed the same pattern you defined here.I have two
+  problem here with acquireToken call.
+
+
+  First there is conflict with api versions explained here
+
+  https://github.com/AzureAD/azure-activedirectory-library-for-nodejs/pull/149
+
+
+  spn: prefix is added to resource and i got no cached entry error because
+  resource is not prefixed on cached version.
+
+
+  This problem is solved removing the version assignment line indicated in the
+  PR.
+
+
+  Second,When cached version of accesstoken is expired,acquireToken function try
+  to refresh requesting the token endpoint without clientSecret which is an
+  error.
+
+
+  As your app is configured in Azure as WebApp, there must be client secret.
+
+  This is the error i faced.
+
+
+  "AADSTS70002: The request body must contain the following parameter:
+  'client_secret or client_assertion'.
+
+
+  Any idea ?
+email: b348ab8bbdd5891271d5dd08b2a29d9a

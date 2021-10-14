@@ -1,0 +1,10 @@
+_id: f92fbb70-a2d9-11eb-a3c3-cd5f0bf55aaf
+message: >-
+  I suggest looking at Microsoft's take on OpenAPI for Azure Functions:
+  https://github.com/Azure/azure-functions-openapi-extension which is maintained
+  unlike this generator.
+name: Jan Hajek
+email: 0bf773a272fb7bd72c40e7f735a4a597
+url: 'https://hajekj.net'
+hidden: ''
+date: '2021-04-21T19:44:24.179Z'

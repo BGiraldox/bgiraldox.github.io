@@ -1,0 +1,7 @@
+_id: 2e981860-6889-11eb-9b48-37d239aa4ddb
+message: "Hi, great article! I think you could simplify your setup, and eliminate the .bat file, by doing something like this:\r\n\r\n```\r\n{\r\n  \"version\": \"2.0\",\r\n  \"customHandler\": {\r\n    \"description\": {\r\n      \"defaultExecutablePath\": \"php\",\r\n      \"arguments\": [\r\n       “ -S”,\r\n       “127.0.0.1:%FUNCTIONS_HTTPWORKER_PORT%”,\r\n       “functionRouter.php”\r\n      ]\r\n    }\r\n  }\r\n}"
+name: Eric Sampson
+email: ad559a3f29919ca68c2e5761c3e8f9aa
+url: ''
+hidden: ''
+date: '2021-02-06T14:39:56.979Z'

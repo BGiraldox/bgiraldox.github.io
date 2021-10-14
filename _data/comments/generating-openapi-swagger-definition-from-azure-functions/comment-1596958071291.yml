@@ -1,0 +1,10 @@
+_id: d4bd0cc0-da11-11ea-a0ec-9da005579a87
+message: >-
+  I have followed your code and try to integrate it with my azure function v3.
+  The xml document gets generated but generator.GenerateDocuments returns
+  nothing with 0 count. Could you please suggest.
+name: Anoop K.Sharma
+email: 41df04b52258b074d4078f9adc2c6ed3
+url: ''
+hidden: ''
+date: '2020-08-09T07:27:51.236Z'

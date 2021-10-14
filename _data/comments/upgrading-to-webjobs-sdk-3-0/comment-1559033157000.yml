@@ -1,0 +1,21 @@
+name: Nicholas Mitchell
+date: '2019-05-28 10:45:57'
+url: ''
+message: >-
+  Thanks for writing this, but having screwed around with this latest version of
+  Web Jobs for a couple of days, hitting bug after bug with no documentation,
+  and being completely new to Web Jobs, I'm sticking with version two. Updating
+  the Web Jobs project template makes everything break! I tried working with V1
+  of Azure Functions but there were so many package conflicts that I moved on to
+  Version 2, but the new framework it's based on (.NET Core or Standard, or
+  whatever it is) wouldn't work with my .NET web app code. The whole thing has
+  just been a big dumpster fire of pain. I really can't believe how unusable and
+  undocumented these products are when ASP.NET and Azure have been so good in
+  the past.
+
+
+  So, one thing I can't for the life of me figure out, if, as you said, "SDK 3.0
+  brings WebJobs much closer to ASP.NET Core", is it still the old .NET? Or is
+  it .NET Core, or Standard? And assuming they fix the usability and
+  documentation problems, will V3 work with old .NET Framework code?
+email: 66e36432653d3529787f826b96995d41

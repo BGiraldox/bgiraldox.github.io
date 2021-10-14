@@ -1,0 +1,9 @@
+name: Dave
+date: '2019-11-28 11:22:38'
+url: 'http://www.onsidaca.net'
+message: >-
+  Hi. I have been looking at this in Asp.Net.Core 2.2 but I can't get it to work
+  properly. I can get the ticket to store but I can't get it back. So when you
+  close the User(ClaimsPrinciple) is returned it has no claims and no role and
+  isnt registered as 'Logged in'. What am I missing ?
+email: 4d93cd5773eb312f8d7fb9e850f21a56

@@ -1,0 +1,10 @@
+name: Andres Garcia
+date: '2018-04-19 16:58:05'
+url: ''
+message: >-
+  As you mention, the below string logs users out of the app as well as SP
+  Online. Is there a Logout URL that will only logout of the single application?
+
+
+  https://login.microsoftonline.com//oauth2/logout?post_logout_redirect_uri=
+email: c7660a6693922e39ed4bdca1dbef7d7e

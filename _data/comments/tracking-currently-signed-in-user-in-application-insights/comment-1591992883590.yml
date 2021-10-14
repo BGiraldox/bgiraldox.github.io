@@ -1,0 +1,7 @@
+_id: 5a334b90-ace9-11ea-8a46-23037410a307
+message: "Hi,\r\nI tried to follow your sample but can't find custom AccountId in any of my traces logs. \r\nI'm using \"Microsoft.Extensions.Logging.ApplicationInsights\" Version=\"2.14.0\" in my AspNet Core 3.1 project and not the SDK nuget package Microsoft.ApplicationInsights.AspNetCore.\r\nAny clues, what am I missing here? \r\nThanks"
+name: Sam
+email: 5dc0c35a8657d19445bb31a958cdafe8
+url: ''
+hidden: ''
+date: '2020-06-12T20:14:43.561Z'

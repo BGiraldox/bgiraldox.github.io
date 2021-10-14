@@ -1,0 +1,13 @@
+name: Erik Forsberg
+date: '2019-08-06 23:03:19'
+url: ''
+message: >-
+  Thanks for your quick reply!
+
+
+  I tried setting 777 and just running it with ENTRYPOINT but to no avail.
+
+
+  Also, it seems like your PHP image doesn't have the Azure SSH settings, am I
+  right?
+email: a3755df546d918205979eb9a979925b2

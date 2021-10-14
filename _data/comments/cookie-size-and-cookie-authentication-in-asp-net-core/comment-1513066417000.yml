@@ -1,0 +1,7 @@
+name: trancos
+date: '2017-12-12 09:13:37'
+url: ''
+message: >-
+  good point, this is where distributed caching (e.g. Redis, Memcache or even
+  SQL) come in handy, which I believe the author mentioned.
+email: 3b694875c0f2a080beef4c025eadef61

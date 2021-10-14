@@ -1,0 +1,9 @@
+name: SeboStone
+date: '2019-01-23 14:22:05'
+url: ''
+message: >-
+  I did the upgrade too, but I get always an exception that means that my
+  AzureStorageAccount connectionstring is null. I did not found any possibility
+  to configure the connectionstring. How did you configure the
+  AzureStorageAccount connectionstring?
+email: c750ddec3740b2f44f5fda6affcd3a3f

@@ -1,0 +1,15 @@
+name: JustMe
+date: '2020-02-03 16:07:00'
+url: ''
+message: |-
+  Guess what! :
+
+  https://www.chromium.org/updates/same-site/incompatible-clients
+
+  <blockquote>
+    Versions of Safari and embedded browsers on MacOS 10.14 and all browsers on iOS 12. These versions will erroneously treat cookies marked with <code>SameSite=None</code> as if they were marked <code>SameSite=Strict</code>. This bug has been fixed on newer versions of iOS and MacOS.
+  </blockquote>
+
+  Why isn't that company selling apples?
+  They surely can't write software...
+email: 8ab5a1ae98fd181fc0224257533008f3

@@ -1,0 +1,89 @@
+name: Erik Forsberg
+date: '2019-08-06 17:34:24'
+url: ''
+message: >-
+  Hi Honza!
+
+
+  First off, thanks for your posts - they have been way more helpful than the
+  official docs.
+
+
+  I am, however, running into some issues trying to build my own image, based on
+  the official php:7.2-fpm image. The issue I'm having right now is when I
+  attempt to add SSH support to my image. This is the important parts of my
+  current Dockerfile (I hope this comes out alright in the comment):
+
+
+  FROM php:7.2-fpm
+
+
+  Install dependencies
+
+
+  RUN apt-get update &amp;&amp; apt-get install -y \
+          [...] &amp;&amp; \
+      apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* &amp;&amp; \
+      docker-php-ext-install \
+          [...] &amp;&amp; \
+      docker-php-ext-configure gd \
+          [...] &amp;&amp; \
+      docker-php-ext-install gd
+
+  Add Azure SSH config
+
+
+  COPY init_container.sh /bin/
+
+  RUN echo "root:Docker!" | chpasswd \
+      &amp;&amp; apt update \
+      &amp;&amp; apt-get install -y --no-install-recommends openssh-server \
+      &amp;&amp; chmod 755 /bin/init_container.sh
+  COPY sshd_config /etc/ssh/
+
+
+  Expose ports and start php-fpm server
+
+
+  EXPOSE 2222 9000
+
+
+  CMD ["/bin/init_container.sh"]
+
+
+  This is my init_container.sh:
+
+
+  #!/bin/bash
+
+  service ssh start
+
+  touch /home/LogFiles/node_${WEBSITE_ROLE_INSTANCE_ID}<em>out.log
+
+  echo "$(date) Container started" &gt;&gt;
+  /home/LogFiles/node</em>${WEBSITE_ROLE_INSTANCE_ID}_out.log
+
+
+  /usr/local/sbin/php-fpm
+
+
+  As you can probably tell, I've took chunks from your repo to try and adapt to
+  my config, but something seems to be off.
+
+
+  The image builds alright but when I try to run it, I'm just getting the
+  following error from my container: "/usr/local/bin/docker-php-entrypoint: 9:
+  exec: /bin/init_container.sh: not found".
+
+
+  If I run "docker run my_image ls -Al /bin/", I can see that init_container.sh
+  is there, and the file permissions look like everything else in /bin/.
+
+
+  Do you have any idea what could be the issue here?
+
+
+  Thanks!
+
+  Erik
+email: a3755df546d918205979eb9a979925b2

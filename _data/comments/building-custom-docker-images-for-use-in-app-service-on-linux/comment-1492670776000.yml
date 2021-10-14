@@ -1,0 +1,9 @@
+name: 'Deploying PHP web applications to Azure App Service &#8211; Honza&#039;s Blarg'
+date: '2017-04-20 08:46:16'
+url: >-
+  https://hajekj.net/2017/04/20/deploying-php-web-applications-to-azure-app-service/
+message: >-
+  [&#8230;] have already blogged about App Service on Linux multiple times, now
+  we are going to focus on deploying a PHP application there. Again, just like
+  with App Service [&#8230;]
+email: d41d8cd98f00b204e9800998ecf8427e

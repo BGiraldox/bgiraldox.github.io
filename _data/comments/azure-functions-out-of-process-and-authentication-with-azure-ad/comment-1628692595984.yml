@@ -1,0 +1,10 @@
+_id: 87855630-fab1-11eb-a50e-656b7fb39fed
+message: >-
+  Hello Chand, in Azure Functions on .NET 5.0 don't expose full HttpContext, so
+  unfortunately you cannot set claims there via a middleware properly yet. This
+  is something I hope that Microsoft will add.
+name: Jan Hajek
+email: 0bf773a272fb7bd72c40e7f735a4a597
+url: 'https://hajekj.net'
+hidden: ''
+date: '2021-08-11T14:36:35.956Z'

@@ -1,0 +1,11 @@
+name: >-
+  App Service on Linux &#8211; HHVM image updated with support for SSH &#8211;
+  Honza&#039;s Blarg
+date: '2017-05-14 09:03:28'
+url: >-
+  https://hajekj.net/2017/05/14/app-service-on-linux-hhvm-image-updated-with-support-for-ssh/
+message: >-
+  [&#8230;] support for SSH support directly into the web worker instance. Based
+  on my previous article about building a custom image for ASL, I have updated
+  the HHVM image both on GitHub and Docker hub to have SSH support as [&#8230;]
+email: d41d8cd98f00b204e9800998ecf8427e

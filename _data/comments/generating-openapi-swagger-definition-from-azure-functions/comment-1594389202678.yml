@@ -1,0 +1,7 @@
+_id: b7b9a440-c2b4-11ea-84de-41269c2f6a63
+message: "Hi Jan- Great article! \r\n\r\nI had a question- any ideas on how to feed the JSON endpoint to the SwaggerUI as you mentioned? I only see this doc (https://docs.microsoft.com/en-us/samples/aspnet/aspnetcore.docs/getstarted-swashbuckle-aspnetcore/?tabs=visual-studio) that indicates how to feed it to the SwaggerUI when using IApplicationBuilder in my Config function in the Startup.cs file, but since I'm using Azure Functions, I only have an IFunctionsHostBuilder object which does not have UseSwagger, UseSwaggerUI, etc. defined. Any thoughts on this? I followed your tutorial and defined the \"Swagger\" function using DocumentGenerator and C# annotations to generate the XML and make the OpenAPIDocument object so I see the json when I visit the api/swagger endpoint but I'm stuck on the UI portion. If I can't really find anything on the internet for this half.\r\n\r\nThanks again :)"
+name: Yasmine Ben
+email: 646c2d7aca7b8b938dcd5389eb745a08
+url: ''
+hidden: ''
+date: '2020-07-10T13:53:22.667Z'

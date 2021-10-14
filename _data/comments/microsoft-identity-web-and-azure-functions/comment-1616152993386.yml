@@ -1,0 +1,7 @@
+_id: 7dbcaaf0-88a5-11eb-a5c9-6d33dda7aa24
+message: "Hi Jan,\r\n\r\nThanks for a great post. I have some questions regarding this:\r\n\r\n1. Is it true that the above currently only works when running locally because of this: https://github.com/AzureAD/microsoft-identity-web/issues/916 ?\r\n\r\n2. When deploying, should the values in local.settings.json be added to host.json or should they be added as Application Settings for the function App Service?\r\n\r\n3. ...and in general, when adding a NuGet-package to an Azure Function, such as Microsoft.Identity.Web, that requires configuration settings, how do I know where to put the configuration values?\r\n\r\nWould really appreciate if you could answer. \r\n\r\nRegards, \r\n\r\nAlexander Tuttle"
+name: Alexander Tuttle
+email: 166fc625953060aa04e635ea56c8aa88
+url: ''
+hidden: ''
+date: '2021-03-19T11:23:12.957Z'

@@ -1,0 +1,42 @@
+name: Jan Hajek
+date: '2018-05-30 17:53:59'
+url: 'https://hajekj.net'
+message: >-
+  So first off, this article was made during ASP.NET Core 1.0 / 1.1 era, so it
+  is sort of outdated. You did the right thing with the ClaimsActions and are on
+  right track. The ChallengeBehavior <a
+  href="https://github.com/aspnet/Security/issues/1310" rel="nofollow">was
+  removed in ASP.NET Core 2.0</a>. The ToUnixTimestamp method is an extension
+  method I made and looks like this (an official one might be added in .NET Core
+  2.1):
+
+
+  <pre>
+
+  public static class DateTimeExtensions
+
+  {
+      public static long ToUnixTimestamp(this DateTime d)
+      {
+          var duration = d - new DateTime(1970, 1, 1, 0, 0, 0);
+          return (long)duration.TotalSeconds;
+      }
+  }
+
+  </pre>
+
+
+  The proper login screen when reauthentication is prompted looks like this
+  (note the "Because you are accessing..." message):
+
+  <img
+  src="https://hajekj.net/wp-content/uploads/2018/05/reauthentication_sample.png"
+  alt="" />
+
+  Well with AJAX it is a bit more complicated - what you should do, is that when
+  you hit your AJAX route ("/ajax/..." for example) and reauthentication is
+  required, you should return back a status code like 401 with JSON response
+  like ({"status":"reauthentication_required",...}) and then process the message
+  on client side and then have it prompt reauthentication. The reauthentication
+  will not work with AJAX to my knowledge.
+email: 0bf773a272fb7bd72c40e7f735a4a597

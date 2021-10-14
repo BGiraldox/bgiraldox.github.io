@@ -1,0 +1,12 @@
+_id: 40a4e3a0-f1a4-11ea-aa2a-e327314aef7f
+message: >-
+  As far as I know, Microsoft is using OpenAPI.NET.CSharpAnnotations tool
+  internally, so don't think it is abandoned, yet. I have been closely tracking
+  the work on https://github.com/aliencube/AzureFunctions.Extensions/ and I am
+  really impressed with the progress there. Really hoping Microsoft puts more
+  effort into this.
+name: Jan Hajek
+email: 0bf773a272fb7bd72c40e7f735a4a597
+url: 'https://hajekj.net'
+hidden: ''
+date: '2020-09-08T07:23:55.305Z'

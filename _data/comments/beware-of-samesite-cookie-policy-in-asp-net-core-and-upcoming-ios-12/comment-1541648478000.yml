@@ -1,0 +1,13 @@
+name: rhys williams
+date: '2018-11-08 04:41:18'
+url: ''
+message: |-
+  Don't forget the set the SameSite policy on your session cookies as well!
+
+  <pre><code>            services.AddSession(
+                  options =&gt;
+                      {
+                          options.Cookie.SameSite = SameSiteMode.None;
+                      });
+  </code></pre>
+email: 735ae9dc316a457029dcedc38fd26a52

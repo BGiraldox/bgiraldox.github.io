@@ -1,0 +1,20 @@
+name: Lucky
+date: '2018-05-29 15:25:34'
+url: ''
+message: >-
+  I have already secured my backend api using azure-ad-jwt, it allows requests
+  only with a valid token. thats done.
+
+  regarding the sample you provided, I am little confused here. So will my SPA
+  use passport_adal , adal node and aad-msal?? Feels passport is not needed in
+  the front end app. Also access tokens for the 3 resources will be managed
+  automatically by adal node?
+
+  I dont want to use graph api as it doesnt exposes all functioanlities of
+  sharepoint as of now. will have to explicity use 3 resource. And I have approx
+  10 pages in my front end, how can I verify before going to each of the page
+  that user is already authenticated?
+
+  do we have a function in adal node which verifies if user is already logged in
+  or so?
+email: 0ebb2cbf02caf7d359914ad6119c1658

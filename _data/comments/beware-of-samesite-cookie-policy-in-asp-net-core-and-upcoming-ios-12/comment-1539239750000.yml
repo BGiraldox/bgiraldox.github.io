@@ -1,0 +1,9 @@
+name: Mark C
+date: '2018-10-11 08:35:50'
+url: 'https://plus.google.com/113619769551230472995'
+message: >-
+  Tried this and still stuck in a redirect loop when using Safari - can't work
+  out how to implement setting the response mode to send the response in the
+  query as I am using the AddAzureAD method and adding
+  AddOpenIdConnect("AzureAD") gives an error. Any tips please?
+email: 302c734dabb21723d958ee9e1953a80c

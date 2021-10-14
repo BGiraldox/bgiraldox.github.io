@@ -1,0 +1,24 @@
+name: Erik Forsberg
+date: '2019-08-08 11:12:22'
+url: ''
+message: >-
+  It seems I have finally found the solution to this problem. Changing the line
+  endings from CRLF to LF seems to have done the trick (thanks to
+  https://forums.docker.com/t/standard-init-linux-go-175-exec-user-process-caused-no-such-file/20025/8).
+
+
+  The issue now seems to be running "az webapp create-remote-connection [...]"
+  as I keep getting "Timeout Error, Unable to establish a connection".
+
+
+  I've also tried WebSSH on Kudu, but my docker logs gives me this:
+
+  Host from file: 172.16.1.7
+
+  DEBUG: Local ident: 'SSH-2.0-ssh2js0.1.16'
+
+  on.error - Error: connect ECONNREFUSED 172.16.1.7:2222
+
+
+  Any idea?
+email: a3755df546d918205979eb9a979925b2

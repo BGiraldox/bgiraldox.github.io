@@ -1,0 +1,5 @@
+name: 'The dangers of too many cookies on a website &#8211; Honza&#039;s Blarg'
+date: '2017-10-30 09:09:58'
+url: 'https://hajekj.net/2017/10/30/the-dangers-of-too-many-cookies-on-a-website/'
+message: "[&#8230;] as well, sessions also make it very easy to handle concurrent requests (I wrote about this in\_Session locking in PHP on Azure Web Apps), which may be important for your application or at least make things easier for you (in cases [&#8230;]"
+email: d41d8cd98f00b204e9800998ecf8427e

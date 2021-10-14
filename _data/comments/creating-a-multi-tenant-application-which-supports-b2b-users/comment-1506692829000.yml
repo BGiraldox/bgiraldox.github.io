@@ -1,0 +1,9 @@
+name: Jan Hajek
+date: '2017-09-29 15:47:09'
+url: 'https://hajekj.net'
+message: >-
+  This feature is leveraging Azure Active Directory, which is in the heart of
+  Office 365 (providing all identity, authentication, authorization and
+  directory services), so yes, any Azure AD backed service can leverage of B2B
+  access.
+email: 0bf773a272fb7bd72c40e7f735a4a597

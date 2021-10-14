@@ -1,0 +1,7 @@
+_id: bb5c7fa0-f13a-11ea-aa2a-e327314aef7f
+message: "Thanks for the quick response.  What if it's a custom list/collection?  For example, this:\r\n\r\n<response code=\"200\" type=\"application/json\"><see cref=\"SearchResultDto{T}\"/>where T is <see cref=\"AddressDto\"/>AddressDto[]</response>\r\n\r\nProduced:\r\n\"responses\": {\r\n\t\"200\": {\r\n\t\t\"description\": \"AddressDto[]\",\r\n\t\t\"content\": {\r\n\t\t\"application/json\": {\r\n\t\t\t\"schema\": {\r\n\t\t\t\"$ref\": \"#/components/schemas/HPHC.Phoenix.Host.Model.Search.SearchResultDto_HPHC.Phoenix.Host.Model.Address.AddressDto_\"\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n\r\nSo it looks like it is missing this in the generated swagger:\r\n\"type\": \"array\""
+name: Oscar Bautista
+email: c1dfc541662908c54e073abaaf80bd59
+url: ''
+hidden: ''
+date: '2020-09-07T18:48:34.877Z'

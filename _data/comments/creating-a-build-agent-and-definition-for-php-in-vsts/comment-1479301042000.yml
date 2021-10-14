@@ -1,0 +1,5 @@
+name: 'Speed up your application in Azure App Service &#8211; Honza&#039;s Blarg'
+date: '2016-11-16 13:57:22'
+url: 'https://hajekj.net/2016/11/14/speed-up-your-application-in-azure-app-service/'
+message: "[&#8230;] This brings a challenge\_with deployment &#8211; when you push new change to source control, the changes will be deployed, however the instances won&#8217;t pick it up unless you restart the site. So how to automate this, so you\_can\_do this in a single push?\_The answer is simple &#8211;\_make use of Visual Studio Team Services and just add the site restart as final deployment step in the build definition. You can find out more about those in my previous article about PHP and DevOps with VSTS. [&#8230;]"
+email: d41d8cd98f00b204e9800998ecf8427e

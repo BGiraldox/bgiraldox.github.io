@@ -1,0 +1,26 @@
+name: Lucky
+date: '2018-05-29 14:51:06'
+url: ''
+message: >-
+  Well, I am really new to NodeJS development and recently found about passport,
+  not sure how does it work. Might be a really silly question to ask, but how do
+  we manage users using both the approach? in some cases I would like my front
+  end to make the direct call to the resources and in some cases my rest api,
+  will need to make the call on behalf of the user. if they both get the tokens
+  independently I am not sure how it will work or what security issue it might
+  present.
+
+  Right now I have the following setup
+
+  nodejs express back end api protected by aad
+
+  nodejs web server serving static web pages
+
+  and in all I have to use 3 resources from aad. mu backend api, sharepoint api
+  and email api
+
+  management of access tokens for all 3 of them from both the places seems a
+  tedious approach.
+
+  I feel I am not seeing the obvious here, should be some cleaner way to do it.
+email: 0ebb2cbf02caf7d359914ad6119c1658

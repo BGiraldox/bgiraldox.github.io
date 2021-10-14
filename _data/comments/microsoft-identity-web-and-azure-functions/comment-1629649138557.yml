@@ -1,0 +1,7 @@
+_id: a748ecf0-0364-11ec-8e14-258a816d0006
+message: "This is not working. All my http triggers are at Anonymous level. I get error as below. Until there is a  clean solution, I feel it is better to display some warning at the beginning of this post so future readers do not spend their time on this approach.\r\n\r\n*[2021-08-22T16:13:48.888Z] An unhandled host error has occurred.\r\n[2021-08-22T16:13:48.893Z] Microsoft.AspNetCore.Authentication.Core: No authentication handler is registered for the scheme 'ArmToken'. The registered schemes are: Bearer. Did you forget to call AddAuthentication().Add[SomeAuthHandler](\"ArmToken\",...)?.*"
+name: Kiran
+email: 75c3146c3b87a3d4d01d9f7b07521b8f
+url: ''
+hidden: ''
+date: '2021-08-22T16:18:58.546Z'

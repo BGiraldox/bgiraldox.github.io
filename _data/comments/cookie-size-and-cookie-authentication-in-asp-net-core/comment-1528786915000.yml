@@ -1,0 +1,12 @@
+name: >-
+  Passing state through authentication in ASP.NET Core &#8211; Honza&#039;s
+  Blarg
+date: '2018-06-12 09:01:55'
+url: >-
+  https://hajekj.net/2018/06/12/passing-state-through-authentication-in-asp-net-core/
+message: >-
+  [&#8230;] Additionally, you should keep on mind that the properties are part
+  of the authentication ticket (therefore stored in the authentication cookie by
+  default) &#8211; and you should beware of its size as I previously explained
+  in an article. [&#8230;]
+email: d41d8cd98f00b204e9800998ecf8427e

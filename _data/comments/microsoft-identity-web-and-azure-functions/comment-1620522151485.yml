@@ -1,0 +1,7 @@
+_id: 3b1668a0-b062-11eb-a3c3-cd5f0bf55aaf
+message: "i am getting error -\r\nMicrosoft.AspNetCore.Authentication.Core: No authentication handler is registered for the scheme 'WebJobsAuthLevel'. The registered schemes are: B2C. Did you forget to call AddAuthentication().Add[SomeAuthHandler](\"WebJobsAuthLevel\",...)?.\r\n\r\nPlease help .."
+name: saurabh
+email: eb06348e0fdfd2385c20cdebef24d429
+url: ''
+hidden: ''
+date: '2021-05-09T01:02:31.437Z'

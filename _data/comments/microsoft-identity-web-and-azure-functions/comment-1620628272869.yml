@@ -1,0 +1,14 @@
+_id: 504a89c0-b159-11eb-a3c3-cd5f0bf55aaf
+message: >-
+  Great point @saurabh. This is a known issue, partially covered here:
+  https://github.com/AzureAD/microsoft-identity-web/issues/916. To mitigate this
+  error on startup, make sure that all your HTTP triggers are set to Anonymous
+  level. Eventually, you could also try following:
+  https://hajekj.net/2021/04/22/azure-functions-out-of-process-and-authentication-with-azure-ad/
+  to make other authorization types work as well (like the Functions key). You
+  can use the same code with in-process hosting model as well.
+name: Jan Hajek
+email: 0bf773a272fb7bd72c40e7f735a4a597
+url: 'https://hajekj.net'
+hidden: ''
+date: '2021-05-10T06:31:12.821Z'

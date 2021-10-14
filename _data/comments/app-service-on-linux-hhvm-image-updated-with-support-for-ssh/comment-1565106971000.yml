@@ -1,0 +1,9 @@
+name: Jan Hajek
+date: '2019-08-06 17:56:11'
+url: 'https://hajekj.net'
+message: >-
+  Also I set 777 permissions in my image. Honestly, I haven’t used the HHVM
+  image for quite some time, so maybe something changed in Docker. The image of
+  hajekjnet-php is something that powers my blog, so it should work 100% since
+  it was last built a month or so ago.
+email: 0bf773a272fb7bd72c40e7f735a4a597

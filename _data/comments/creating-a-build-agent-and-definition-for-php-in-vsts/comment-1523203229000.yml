@@ -1,0 +1,9 @@
+name: Kasun Rajapakse
+date: '2018-04-08 18:00:29'
+url: 'http://kasunsjc.wordpress.com'
+message: >-
+  We also first through of using containers but ACS or AKS still doesn't support
+  to deploy to existing Vnet, ACS &amp; AKS use 10.0.0.0/8 witch is conflict
+  with on prem IP range.  It Deployed using managed disk. Not using any storage
+  accounts.
+email: 2f1af30bb1a38e3a4c597a22011405e0

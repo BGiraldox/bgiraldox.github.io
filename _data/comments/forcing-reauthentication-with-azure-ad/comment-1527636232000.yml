@@ -1,0 +1,52 @@
+name: Oj
+date: '2018-05-30 01:23:52'
+url: ''
+message: >-
+  This is a really helpful article and was the only one i could find to address
+  the reauthentication requirement. However I have had to make some adjustments
+  for my asp net core 2.0 mvc web app which is kind of working (after adding 
+  options.ClaimActions.Remove("auth_time") recommended from your other post) but
+  it's not quite robust yet. Just wondering if you can advise on the
+  following...
+
+
+
+  I had to use the line "await
+  AuthenticationHttpContextExtensions.ChallengeAsync(context.HttpContext,
+  OpenIdConnectDefaults.AuthenticationScheme, new
+  AuthenticationProperties(state));" in order for it to compile. Also I could
+  not find an option for "ChallengeBehavior.Unauthorized" which you specifically
+  mention however I assume this gives the same result but do you know?
+
+  Adding the resource filter decoration "[RequireReauthentication(0)]" to my
+  controller action works however passing the value 0 means the code never
+  reaches the await.next() command. What should this value be?
+
+  I had to use "DateTimeOffset.UtcNow.ToUnixTimeSeconds()" as there is no
+  "DateTime.UtcNow.ToUnixTimestamp()" option in asp net core 2.0. I assume this
+  gives the same result but would be nice to confirm.
+
+  When the login form appears it is the same as the initial full page login page
+  when first opening the app. Is this normal as I was expecting a more trimmed
+  down popup window. Is there any way to customise the options on this form (ie
+  from the ProtocolMessage) to remove other account selections and provide a way
+  for a user to cancel which gracefully returns to the app in it's current
+  location? There does not seem to be a way a user can get out of the login
+  screen without closing the browser window.
+
+  It works when calling a controller action that return a full page view.
+  However when I call an action from an ajax request which returns a partial
+  into a bootstrap modal it fails with "Response to preflight request doesn't
+  pass access control check: No 'Access-Control-Allow-Origin' header is present
+  on the requested resource. Origin 'https://localhost:44308' is therefore not
+  allowed access". This looks like a CORS issue but I don't know why it would
+  work when going through the standard mvc process and not when being called
+  from jquery. Adding "services.AddCors();" and "app.UseCors(builder =&gt;
+  builder.WithOrigins("https://login.microsoftonline.com"));" to my startup file
+  doesn't make any difference. Do you know what could be the issue here?
+
+
+
+  Thanks for taking the time to put this article together and any responses you
+  can provide.
+email: 062754ed2f4a4e2f1dc8c252fc92120c

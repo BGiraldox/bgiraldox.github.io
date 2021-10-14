@@ -1,0 +1,7 @@
+_id: 258bb1c0-096d-11ec-8e14-258a816d0006
+message: "Thanks for the post. \r\n\r\nWhen dotnet 5 support for Azure Functions was announced I thought this was great news. A few months into porting my apps from 3.1 I’ve realised I started too soon.\r\n\r\nI’ve hit this problem securing my app and also a major issue where I’m receiving grpc timeouts. \r\n\r\nIt’s a shame because dotnet-isolated is clearly the future but my advice would be don’t migrate yet."
+name: Rob Bowman
+email: 67f89ed425b815ea1af35c9c0b589d21
+url: ''
+hidden: ''
+date: '2021-08-30T08:34:53.503Z'
