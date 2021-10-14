@@ -1,6 +1,6 @@
 ---
 title: First Blog Post
-date: 2021-10-06T21:32:53+02:00
+date: 2021-10-14T21:32:53+02:00
 author: Brayan Giraldo
 permalink: /2021/10/14/first-blog-post-test/
 categories:
