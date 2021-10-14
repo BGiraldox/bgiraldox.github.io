@@ -17,23 +17,23 @@ title: Brayan's World
 email: bgiraldosoft@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Things that didn't fit elsewhere...
-twitter_username: hajekj
+twitter_username: #
 github_username: BGiraldox
 minimal_mistakes_skin: default
 search: true
 
 twitter:
-  username: "hajekj"
+  username: "#"
 social:
   type: Person
-  name: Jan Hajek
+  name: Brayan Giraldo
   links:
-    - "https://hajekj.net"
-    - "https://twitter.com/hajekj"
-    - "https://www.facebook.com/hajekj"
-    - "https://instagram.com/hajekjnet"
+    - "https://google.com"
+    - "https://twitter.com/#"
+    - "https://www.facebook.com/#"
+    - "https://instagram.com/#"
     - "https://github.com/BGiraldox"
-    - "https://www.linkedin.com/in/jahaj/"
+    - "https://www.linkedin.com/in/#/"
 
 # Build settings
 markdown: kramdown
@@ -77,46 +77,46 @@ author:
   links:
     - label: "Blog"
       icon: "fas fa-fw fa-link"
-      url: "https://hajekj.net"
+      url: "https://google.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
-      url: "https://fb.me/hajekj"
+      url: "https://fb.me/#"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/hajekj"
+      url: "https://twitter.com/#"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/hajekj"
+      url: "https://github.com/#"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/hajekjnet"
+      url: "https://instagram.com/#"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/UCLy5DqU9JJh_rskmupohseA"
+      url: "https://www.youtube.com/channel/#"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jahaj/"
+      url: "https://www.linkedin.com/in/#/"
 
 footer:
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
-      url: "https://fb.me/hajekj"
+      url: "https://fb.me/#"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/hajekj"
+      url: "https://twitter.com/#"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/hajekj"
+      url: "https://github.com/#"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/hajekjnet"
+      url: "https://instagram.com/#"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/UCLy5DqU9JJh_rskmupohseA"
+      url: "https://www.youtube.com/channel/#"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jahaj/"
+      url: "https://www.linkedin.com/in/#/"
 
 defaults:
   # _posts
@@ -160,4 +160,4 @@ analytics:
 after_footer_scripts:
   - /assets/js/mvp-webtrends.js
 
-repository: hajekj/hajekj.github.io # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: BGiraldox/bgiraldox.github.io # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
