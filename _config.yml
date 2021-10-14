@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Honza's Blarg
-email: hajek.j@hotmail.com
+title: Brayan's World
+email: bgiraldosoft@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Things that didn't fit elsewhere...
 twitter_username: hajekj
-github_username: hajekj
+github_username: BGiraldox
 minimal_mistakes_skin: default
 search: true
 
@@ -32,7 +32,7 @@ social:
     - "https://twitter.com/hajekj"
     - "https://www.facebook.com/hajekj"
     - "https://instagram.com/hajekjnet"
-    - "https://github.com/hajekj"
+    - "https://github.com/BGiraldox"
     - "https://www.linkedin.com/in/jahaj/"
 
 # Build settings
@@ -71,9 +71,9 @@ plugins:
   - jekyll-redirect-from
 
 author:
-  name   : "Jan Hajek"
+  name   : "Brayan Giraldo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I am Honza, hi."
+  bio    : "I am Brayan, hi."
   links:
     - label: "Blog"
       icon: "fas fa-fw fa-link"
