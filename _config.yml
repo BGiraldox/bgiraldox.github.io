@@ -161,14 +161,3 @@ after_footer_scripts:
   - /assets/js/mvp-webtrends.js
 
 repository: hajekj/hajekj.github.io # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
-comments:
-  provider: "staticman_v2"
-  staticman:
-    branch: "master"
-    endpoint: https://hajekj-staticman.azurewebsites.net/v3/entry/github/
-
-reCaptcha:
-  siteKey: "6Lf8SdoUAAAAAG89yi83adBHW1DQgXchQ8Y1xB0s"
-  # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
-  # For more information, https://staticman.net/docs/encryption
-  secret: "O7fxi6kWaQs95KbuqMOFqy1u3w/6yuuUGLhNVLWf2WtNIpgynAMOKuKrjraWKbroH1P/pULRS4lPL7rou4E5ONxTTh/L0VhHQ1JG20DZz2dnhXmvX6Q8cTSO/CACy8omPs2B8gTGHAhclIlY0E02eLdsmSeo0eWYgLzJ5ZA81MGe5gDL8gBMgr7QbMLHX7hCu064QkGq7wIxXyX0sDE5hbcyOheibdghgR9ycVci0+1FoQlNHmD/Z9DGB2+LUmRJwKEBCPlHoOCJ2RXRdn2V8np1zxobuonXI2EEu/X4KDmPrDwJncVuDeMEI8SCqupSFyljIOX94n486ChXIIH8SA=="
