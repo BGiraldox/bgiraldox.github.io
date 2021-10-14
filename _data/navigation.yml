@@ -5,7 +5,5 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Company Blog"
-    url: https://blog.thenetw.org
   - title: "About Me"
     url: /about-me/
