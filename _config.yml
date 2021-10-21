@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Brayan's World
-email: bgiraldosoft@gmail.com
+title: The Lubray World
+email: thelubrayworld@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Things that didn't fit elsewhere...
 twitter_username: #
@@ -25,15 +25,16 @@ search: true
 twitter:
   username: "#"
 social:
-  type: Person
-  name: Brayan Giraldo
+  type: Couple
+  name: The Lubray World
   links:
     - "https://bgiraldox.github.io/"
-    - "https://twitter.com/TheBrayansWorld"
-    - "https://www.facebook.com/DBrayansWorld"
-    - "https://www.instagram.com/thebrayansworld/"
+    - "https://twitter.com/TheLubrayWorld"
+    - "https://www.facebook.com/TheLubrayWorld/"
+    - "https://www.instagram.com/thelubrayworld/"
     - "https://github.com/BGiraldox"
-    - "https://www.linkedin.com/in/#/"
+    - "https://www.youtube.com/channel/UCr3owY4X5gtrlsBX3pMDX_A"
+    - "https://www.tiktok.com/@thelubrayworld"
 
 # Build settings
 markdown: kramdown
@@ -71,52 +72,52 @@ plugins:
   - jekyll-redirect-from
 
 author:
-  name   : "Brayan Giraldo"
+  name   : "The Lubray World"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I am Brayan, hi."
+  bio    : "Welcome to our world!."
   links:
     - label: "Blog"
       icon: "fas fa-fw fa-link"
       url: "https://bgiraldox.github.io/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/DBrayansWorld"
+      url: "https://www.facebook.com/TheLubrayWorld/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/TheBrayansWorld"
+      url: "https://twitter.com/TheLubrayWorld"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BGiraldox"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/thebrayansworld/"
+      url: "https://www.instagram.com/thelubrayworld/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/#"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/#/"
+      url: "https://www.youtube.com/channel/UCr3owY4X5gtrlsBX3pMDX_A"
+    - label: "TikTok"
+      icon: "fab fa-fw fa-tiktok"
+      url: "https://www.tiktok.com/@thelubrayworld"
 
 footer:
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/DBrayansWorld"
+      url: "https://www.facebook.com/TheLubrayWorld/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/TheBrayansWorld"
+      url: "https://twitter.com/TheLubrayWorld"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BGiraldox"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/thebrayansworld/"
+      url: "https://www.instagram.com/thelubrayworld/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/#"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/#/"
+      url: "https://www.youtube.com/channel/UCr3owY4X5gtrlsBX3pMDX_A"
+    - label: "TikTok"
+      icon: "fab fa-fw fa-tiktok"
+      url: "https://www.tiktok.com/@thelubrayworld"
 
 defaults:
   # _posts
