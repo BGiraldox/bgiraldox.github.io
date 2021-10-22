@@ -35,6 +35,7 @@ social:
     - "https://github.com/BGiraldox"
     - "https://www.youtube.com/channel/UCr3owY4X5gtrlsBX3pMDX_A"
     - "https://www.tiktok.com/@thelubrayworld"
+    - "https://www.patreon.com/user/creators?u=63487829"
 
 # Build settings
 markdown: kramdown
@@ -97,6 +98,9 @@ author:
     - label: "TikTok"
       icon: "fab fa-fw fa-tiktok"
       url: "https://www.tiktok.com/@thelubrayworld"
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://www.patreon.com/user/creators?u=63487829"
 
 footer:
   links:
@@ -118,6 +122,9 @@ footer:
     - label: "TikTok"
       icon: "fab fa-fw fa-tiktok"
       url: "https://www.tiktok.com/@thelubrayworld"
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://www.patreon.com/user/creators?u=63487829"
 
 defaults:
   # _posts

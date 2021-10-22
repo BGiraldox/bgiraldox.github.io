@@ -21,3 +21,6 @@ Jan Hajek:
     - label: "TikTok"
       icon: "fab fa-fw fa-tiktok"
       url: "https://www.tiktok.com/@thelubrayworld"
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://www.patreon.com/user/creators?u=63487829"
