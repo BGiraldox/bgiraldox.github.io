@@ -36,7 +36,6 @@ social:
     - "https://www.youtube.com/channel/UCr3owY4X5gtrlsBX3pMDX_A"
     - "https://www.tiktok.com/@thelubrayworld"
     - "https://www.patreon.com/user/creators?u=63487829"
-    - "https://www.buymeacoffee.com/thelubrayworld"
 
 # Build settings
 markdown: kramdown
@@ -102,9 +101,6 @@ author:
     - label: "Patreon"
       icon: "fab fa-fw fa-patreon"
       url: "https://www.patreon.com/user/creators?u=63487829"
-    - label: "Buy me a coffe"
-      icon: "fas fa-fw fa-mug-hot"
-      url: "https://www.buymeacoffee.com/thelubrayworld"
 
 footer:
   links:
@@ -129,9 +125,6 @@ footer:
     - label: "Patreon"
       icon: "fab fa-fw fa-patreon"
       url: "https://www.patreon.com/user/creators?u=63487829"
-    - label: "Buy me a coffe"
-      icon: "fas fa-fw fa-mug-hot"
-      url: "https://www.buymeacoffee.com/thelubrayworld"
 
 defaults:
   # _posts
