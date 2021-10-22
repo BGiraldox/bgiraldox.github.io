@@ -24,3 +24,7 @@ Jan Hajek:
     - label: "Patreon"
       icon: "fab fa-fw fa-patreon"
       url: "https://www.patreon.com/user/creators?u=63487829"
+    - label: "Buy me a coffe"
+      icon: "fas fa-fw fa-mug-hot"
+      url: "https://www.buymeacoffee.com/thelubrayworld"
+
